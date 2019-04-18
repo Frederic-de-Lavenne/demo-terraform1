@@ -7,7 +7,7 @@
 * * Ensure to have the Terraform binary on your path /bin, you can download it at https://www.terraform.io/downloads.html   
 * * Ensure to have an access key and secret key to use AWSCLI   
 * * Ensure to have a recent version of AWSCLI https://aws.amazon.com/cli   
-* * Have an ssl certificate and private key on the dir /home/ubuntu/demo-gitlab/ssl on this workshop cert and kay are already present on an S3 bucket
+* * Chef will use self signed cert but you can put your own and gitlab will pull a let's encrypt certificate
    
       
 On this workshop we will setup an ec2 instance running ubuntu 18   
