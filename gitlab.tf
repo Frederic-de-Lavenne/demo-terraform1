@@ -11,7 +11,7 @@
    allocation_id = "${aws_eip.demo-gitlab.id}"
  }
 
-#create a DNS entry in route 53 to associate with the ec2 instance , so the website will be availlable at www.peach-staging.ebu.io
+#create a DNS entry in route 53 to associate with the ec2 instance
   resource "aws_route53_record" "A" {
     count   = 1
     zone_id = "${data.aws_route53_zone.demo.zone_id}"
