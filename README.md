@@ -16,6 +16,6 @@ we setup a public elastic IP
 we launch a gitlab docker container   
    
 
-We can access to gitlab on https://gitlab.as-a-code.info
+We can access to gitlab on https://gitlab.as-a-code.info :)
 
 
